@@ -1,0 +1,61 @@
+version: "2.0"
+
+stories:
+
+- story: greet user
+  steps:
+  - intent: greet
+  - action: utter_greet
+  
+
+- story: say goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+  
+
+- story: user feels sad
+  steps:
+  - intent: feeling_sad 
+  - action: utter_comfort
+
+- story: user is feeling sad
+  steps:
+  - intent: anxiety
+  - action: utter_comfort_anxiety
+  - action: offer_breathing_exercise
+
+- story: user needs help
+  steps:
+  - intent: need_help
+  - action: offer_support
+
+- story: user expresses gratitude
+  steps:
+  - intent: gratitude
+  - action: utter_gratitude_response    
+
+- story: unhappy mood interaction
+  steps: 
+  - intent: mood_unhappy
+  - action: utter_comfort  
+
+- story: happy path
+  steps:
+  - intent: utter_mood_great
+  - action: utter_mood_great
+
+- story: anxiety conversation
+  steps: 
+  - intent: anxiety
+  - action: utter-anxiety
+  - action: utter_comfort 
+
+- story: general conversation
+  steps: 
+  - intent: greet
+  - action: utter_greet
+  - intent: utter_mood_great
+  - action: utter_mood_great
+  - intent: goodbye
+  - action: utter_goodbye    

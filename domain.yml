@@ -1,0 +1,73 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - comfort 
+  - comfort_anxiety
+  - breathing_exercise
+  - gratitude_response
+  - resource
+  - offer_support 
+  - mood_unhappy
+  - utter_mood_great
+  - anxiety
+  - feeling_sad
+  - utter_great
+  - utter_cheer_up
+  - utter_did_that_help
+  - utter_help
+  - utter_happy
+
+responses:
+  utter_greet:
+  - text: "It sounds like you could use some support. How can I assist you? "
+
+  utter_goodbye:
+  - text: "Take care! Remember, you can reach out anytime you need." 
+    
+
+  utter_comfort:
+  - text: "I'm really sorry you're feeling this way.It's okay to feel sad ,and I'm here to support you."
+
+  utter_comfort_anxiety:
+  - text: "Anxiety can feel overwhelming.I'm here with you,and together, we can calm your mind."
+
+  offer_breathing_exercise:
+  - text: "Would you like to try a quick breathing exercise to help calm your anxiety?"
+
+  offer_resource:
+  - text: "You don't have to go through this alone .Here are some resource that  might help."
+
+  offer_support:
+  - text: "It sounds like you could use some support.How can I assist you?"
+
+  utter_gratitude_response:
+  - text: "You're welcome! I'm glad I could help."
+
+  utter_mood_unhappy:
+  - text: "I'm sorry to hear that you're feeling down.Do You want to talk about it?"
+
+  utter_mood_great:
+  - text: "That's great to hear!"
+
+  utter_anxiety:
+  - text: "I'm here to help with your anxiety. What would you like to talk about?"
+
+  utter_feeling_sad:
+  - text: "I'm sorry to hear that you're feeling sad. Is there something you'd like to talk about?"
+
+  utter_great:
+  - text: "That's wonderful to hear!"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up!"
+
+  utter_did_that_help:
+  - text: "Did that help?"
+
+  utter_help:
+  - text: "How can I help you?"
+
+  utter_happy:
+  - text: "I'm glad to hear you're happy!"
